@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nextjs-monitor
-        image: nextjs-monitor:1.2
+        image: nextjs-monitor:1.1
         imagePullPolicy: Never
         ports:
         - containerPort: 3000
